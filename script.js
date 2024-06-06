@@ -175,7 +175,7 @@ editForm.addEventListener("submit", (e) => {
 searchInput.addEventListener("keyup", (e) => {
   const search = e.target.value;
 
-  getSearchedTodos(search);
+  getSearchedTodos (search);
 });
 
 eraseBtn.addEventListener("click", (e) => {
