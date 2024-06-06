@@ -193,7 +193,7 @@ filterBtn.addEventListener("change", (e) => {
 });
 
 // Local Storage
-const getTodosLocalStorage = () => {
+const getTodosLocalStorage = () =>  {
   const todos = JSON.parse(localStorage.getItem("todos")) || [];
 
   return todos;
