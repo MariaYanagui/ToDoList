@@ -189,7 +189,7 @@ eraseBtn.addEventListener("click", (e) => {
 filterBtn.addEventListener("change", (e) => {
   const filterValue = e.target.value;
 
-  filterTodos(filterValue);
+  filterTodos(filterValue) ;
 });
 
 // Local Storage
