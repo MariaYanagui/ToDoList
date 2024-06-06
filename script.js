@@ -116,8 +116,6 @@ const filterTodos = (filterValue) => {
       break;
   }
 };
-
-// Eventos
 todoForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -127,7 +125,6 @@ todoForm.addEventListener("submit", (e) => {
     saveTodo(inputValue);
   }
 });
-
 document.addEventListener("click", (e) => {
   const targetEl = e.target;
   const parentEl = targetEl.closest("div");
