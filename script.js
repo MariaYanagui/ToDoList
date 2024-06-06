@@ -169,7 +169,7 @@ editForm.addEventListener("submit", (e) => {
     updateTodo(editInputValue);
   }
 
-  toggleForms();
+  toggleForms() ;
 });
 
 searchInput.addEventListener("keyup", (e) => {
